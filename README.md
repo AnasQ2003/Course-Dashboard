@@ -110,3 +110,18 @@ This dashboard demonstrates:
 - User interface best practices
 
 The project is well-structured and commented, making it suitable for learning purposes or as a starting point for an actual educational platform.
+
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234002.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234015.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234029.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234050.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234059.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234113.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234125.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234137.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234157.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234216.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234229.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234242.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234257.png)
+![image alt](https://github.com/AnasQ2003/Course-Dashboard/blob/255e7426d899f6a0e49b888b07f6dca2221a1657/Screenshot%202025-07-20%20234312.png)
