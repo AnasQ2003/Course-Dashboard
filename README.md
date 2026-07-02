@@ -12,8 +12,6 @@
 
 > **EduVerse** is a comprehensive, interactive learning dashboard designed to give students a modern, feature-rich platform for managing their online education — all in a single self-contained HTML file with zero dependencies beyond a CDN icon pack.
 
-[🔗 View Repository](https://github.com/AnasQ2003/Course-Dashboard) · [🐛 Report Bug](https://github.com/AnasQ2003/Course-Dashboard/issues) · [✨ Request Feature](https://github.com/AnasQ2003/Course-Dashboard/issues)
-
 </div>
 
 ---
