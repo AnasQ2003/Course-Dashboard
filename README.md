@@ -267,13 +267,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📄 License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+© 2026 **Anas Ahmed Qureshi**. All Rights Reserved.
 
 ---
 
 <div align="center">
 
-Made with ❤️ by [AnasQ2003](https://github.com/AnasQ2003)
+Made with ❤️ 
 
 ⭐ If you find this project useful, please give it a star!
 
