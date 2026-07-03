@@ -12,9 +12,8 @@
 
 > **EduVerse** is a comprehensive, interactive learning dashboard designed to give students a modern, feature-rich platform for managing their online education — all in a single self-contained HTML file with zero dependencies beyond a CDN icon pack.
 
-### 🌐 [**Live Demo → anasq2003.github.io/Course-Dashboard**](https://anasq2003.github.io/Course-Dashboard/)
+### 🌐 [**Live Demo → anasq2003.github.io/Course-Dashboard**](https://eduversedashboard.netlify.app/)
 
-[🔗 View Repository](https://github.com/AnasQ2003/Course-Dashboard) · [🐛 Report Bug](https://github.com/AnasQ2003/Course-Dashboard/issues) · [✨ Request Feature](https://github.com/AnasQ2003/Course-Dashboard/issues)
 
 </div>
 
@@ -238,7 +237,7 @@ function drawBarChart(canvas, data, colors) {
 
 ## 📄 License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+© Course Dashboard---2026 **Anas Ahmed Qureshi**. All Rights Reserved.
 
 ---
 
