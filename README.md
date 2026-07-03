@@ -12,6 +12,10 @@
 
 > **EduVerse** is a comprehensive, interactive learning dashboard designed to give students a modern, feature-rich platform for managing their online education — all in a single self-contained HTML file with zero dependencies beyond a CDN icon pack.
 
+### 🌐 [**Live Demo → anasq2003.github.io/Course-Dashboard**](https://anasq2003.github.io/Course-Dashboard/)
+
+[🔗 View Repository](https://github.com/AnasQ2003/Course-Dashboard) · [🐛 Report Bug](https://github.com/AnasQ2003/Course-Dashboard/issues) · [✨ Request Feature](https://github.com/AnasQ2003/Course-Dashboard/issues)
+
 </div>
 
 ---
@@ -53,36 +57,18 @@ No frameworks. No bundlers. No npm. Just open `index.html` and go.
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-None — any modern browser works. No Node.js or package manager required.
-
-### Option 1 — Open Directly
-
 ```bash
-# Clone the repo
 git clone https://github.com/AnasQ2003/Course-Dashboard.git
-
-# Navigate into the folder
 cd Course-Dashboard
-
-# Open in your default browser
 start index.html        # Windows
 open index.html         # macOS
 xdg-open index.html     # Linux
 ```
 
-### Option 2 — Local Dev Server (Recommended for hot-reload)
-
+Or with a live server:
 ```bash
-# Using VS Code's Live Server extension — just click "Go Live" in the status bar
-
-# Or using Python's built-in HTTP server
 python -m http.server 5500
-# Then visit: http://127.0.0.1:5500/index.html
-
-# Or using Node's serve package
-npx serve .
+# http://127.0.0.1:5500/index.html
 ```
 
 ---
@@ -91,42 +77,27 @@ npx serve .
 
 ```
 Course-Dashboard/
-│
-├── index.html                          # 🏠 Entire application — HTML + CSS + JS in one file
-│   ├── <head>                          #    CSS variables, global styles, responsive rules
-│   ├── .sidebar                        #    Navigation: Dashboard, Courses, Progress,
-│   │                                   #      Assignments, Calendar, Settings
-│   ├── .main-content                   #    Page sections (shown/hidden via JS routing)
-│   │   ├── #dashboard                  #      Stats cards, course cards, charts, notifications
-│   │   ├── #courses                    #      Full course catalog grid
-│   │   ├── #progress                   #      Analytics, charts, achievements
-│   │   ├── #assignments                #      Pending & completed assignment lists
-│   │   ├── #calendar                   #      Monthly calendar + daily schedule
-│   │   └── #settings                   #      Profile, notifications, security
-│   └── <script>                        #    All interactivity, navigation, Canvas charts
-│
-├── Screenshot_2025-07-20_234002.png    # Dashboard — dark mode overview
-├── Screenshot_2025-07-20_234015.png    # Dashboard — charts & notifications (dark)
-├── Screenshot_2025-07-20_234029.png    # Dashboard — light mode
-├── Screenshot_2025-07-20_234050.png    # Course detail modal — lesson list (light)
-├── Screenshot_2025-07-20_234059.png    # Courses page — all course cards (light)
-├── Screenshot_2025-07-20_234113.png    # Course detail modal — lesson progress (dark)
-├── Screenshot_2025-07-20_234125.png    # Progress analytics page (light)
-├── Screenshot_2025-07-20_234137.png    # Assignments page (light)
-├── Screenshot_2025-07-20_234157.png    # Calendar page (light)
-├── Screenshot_2025-07-20_234216.png    # Settings — account profile (light)
-├── Screenshot_2025-07-20_234229.png    # Settings — notifications & security (dark)
-├── Screenshot_2025-07-20_234242.png    # Settings — account profile (dark)
-├── Screenshot_2025-07-20_234257.png    # Logout confirmation modal (dark)
-├── Screenshot_2025-07-20_234312.png    # Login / Sign Up modal (dark)
+├── index.html                        # 🏠 Entire application — HTML + CSS + JS in one file
+├── Screenshot_2025-07-20_234002.png  # Dashboard — dark mode overview
+├── Screenshot_2025-07-20_234015.png  # Dashboard — charts & notifications (dark)
+├── Screenshot_2025-07-20_234029.png  # Dashboard — light mode
+├── Screenshot_2025-07-20_234050.png  # Course detail modal — lesson list (light)
+├── Screenshot_2025-07-20_234059.png  # Courses page — all course cards (light)
+├── Screenshot_2025-07-20_234113.png  # Course detail modal — lesson progress (dark)
+├── Screenshot_2025-07-20_234125.png  # Progress analytics page (light)
+├── Screenshot_2025-07-20_234137.png  # Assignments page (light)
+├── Screenshot_2025-07-20_234157.png  # Calendar page (light)
+├── Screenshot_2025-07-20_234216.png  # Settings — account profile (light)
+├── Screenshot_2025-07-20_234229.png  # Settings — notifications & security (dark)
+├── Screenshot_2025-07-20_234242.png  # Settings — account profile (dark)
+├── Screenshot_2025-07-20_234257.png  # Logout confirmation modal (dark)
+├── Screenshot_2025-07-20_234312.png  # Login / Sign Up modal (dark)
 └── README.md
 ```
 
 ---
 
 ## 🎨 Design System
-
-EduVerse uses a CSS Custom Property (design token) system for seamless theming:
 
 ```css
 :root {
@@ -141,87 +112,95 @@ EduVerse uses a CSS Custom Property (design token) system for seamless theming:
 }
 ```
 
-Theme switching is handled by toggling a `dark-mode` class on `<body>`, which flips all token values via CSS.
-
 ---
 
 ## 📸 Screenshots
 
 ### Dashboard
 
-| Dark Mode | Light Mode |
-|:-:|:-:|
-| ![Dashboard dark — stats, courses, charts](Screenshot_2025-07-20_234002.png) | ![Dashboard light — stats, courses, charts](Screenshot_2025-07-20_234029.png) |
-| *Stats cards · Active courses · Donut & bar charts* | *Identical layout in crisp light theme* |
+**Dark Mode — Stats, Courses & Charts**
+![Dashboard dark](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234002.png)
 
-| Dashboard (Dark) — Scrolled | |
-|:-:|:-:|
-| ![Dashboard dark scrolled — progress chart, weekly activity, notifications](Screenshot_2025-07-20_234015.png) | |
-| *Course Progress donut · Weekly Activity bar chart · Live Notifications feed* | |
+---
+
+**Dark Mode — Scrolled (Progress chart, Weekly Activity, Notifications)**
+![Dashboard dark scrolled](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234015.png)
+
+---
+
+**Light Mode — Stats, Courses & Charts**
+![Dashboard light](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234029.png)
 
 ---
 
 ### Courses & Course Detail
 
-| All Courses Grid | Course Detail Modal (Light) |
-|:-:|:-:|
-| ![Courses page — 6 course cards with badges, progress bars, ratings](Screenshot_2025-07-20_234059.png) | ![Course detail modal — lesson list with checkmarks](Screenshot_2025-07-20_234050.png) |
-| *6 courses · New / Popular / Featured badges · Progress bars · Ratings* | *Data Science Essentials — lesson checklist, 32% progress bar* |
+**All Courses Grid**
+![Courses page](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234059.png)
 
-| Course Detail Modal (Dark) | |
-|:-:|:-:|
-| ![Course detail modal dark — lesson list with Continue Learning CTA](Screenshot_2025-07-20_234113.png) | |
-| *Dark theme lesson list · Completion checkmarks · "Continue Learning" button* | |
+---
+
+**Course Detail Modal (Light)**
+![Course detail modal light](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234050.png)
+
+---
+
+**Course Detail Modal (Dark)**
+![Course detail modal dark](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234113.png)
 
 ---
 
 ### Progress & Analytics
 
-| Learning Analytics (Light) | |
-|:-:|:-:|
-| ![Progress page — completion rate, time spent, streak, donut chart, monthly bar chart, achievements](Screenshot_2025-07-20_234125.png) | |
-| *68% completion · 42h total · 14-day streak · Course Distribution donut · Monthly Progress bars · 3 unlocked achievement badges* | |
+**Learning Analytics**
+![Progress page](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234125.png)
 
 ---
 
 ### Assignments & Calendar
 
-| Assignments | Learning Calendar |
-|:-:|:-:|
-| ![Assignments page — pending and completed assignment lists](Screenshot_2025-07-20_234137.png) | ![Calendar page — June 2023 + today's schedule](Screenshot_2025-07-20_234157.png) |
-| *Pending assignments with due dates · Completed assignments with scores* | *Monthly calendar · Today's live session, study group & self-paced schedule* |
+**Assignments**
+![Assignments page](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234137.png)
+
+---
+
+**Learning Calendar**
+![Calendar page](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234157.png)
 
 ---
 
 ### Settings
 
-| Account Settings (Light) | Account Settings (Dark) |
-|:-:|:-:|
-| ![Settings page light — profile edit, avatar](Screenshot_2025-07-20_234216.png) | ![Settings page dark — profile edit, avatar](Screenshot_2025-07-20_234242.png) |
-| *Profile photo · Name / Email / Bio form · Save Changes* | *Same settings panel in dark mode* |
+**Account Settings (Light)**
+![Settings light](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234216.png)
 
-| Notifications & Security | |
-|:-:|:-:|
-| ![Settings dark — notification toggles, password change, 2FA](Screenshot_2025-07-20_234229.png) | |
-| *Notification preference toggles · Change password form · Two-Factor Authentication enable* | |
+---
+
+**Account Settings (Dark)**
+![Settings dark](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234242.png)
+
+---
+
+**Notifications & Security**
+![Settings notifications](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234229.png)
 
 ---
 
 ### Auth Flows
 
-| Login Modal | Logout Confirmation |
-|:-:|:-:|
-| ![Login modal — Welcome to EduVerse, name/email/password fields](Screenshot_2025-07-20_234312.png) | ![Logout confirm dialog — Yes Logout / Cancel](Screenshot_2025-07-20_234257.png) |
-| *"Welcome to EduVerse" · Full Name, Email, Password · Sign Up link* | *Confirmation dialog prevents accidental logout* |
+**Login Modal**
+![Login modal](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234312.png)
+
+---
+
+**Logout Confirmation**
+![Logout confirm dialog](https://raw.githubusercontent.com/AnasQ2003/Course-Dashboard/main/Screenshot_2025-07-20_234257.png)
 
 ---
 
 ## 🧭 Navigation
 
-EduVerse implements client-side SPA routing without any framework:
-
 ```javascript
-// Section switching — no page reloads
 function showSection(sectionId) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById(sectionId).classList.add('active');
@@ -229,33 +208,25 @@ function showSection(sectionId) {
 }
 ```
 
-Clicking any sidebar link shows the corresponding section while hiding all others — instant, zero-latency navigation.
-
 ---
 
 ## 📊 Charts
 
-Charts are rendered using the browser's native **Canvas API** — no Chart.js, no D3:
-
 ```javascript
-// Donut chart drawn with arc() paths and text overlay
 function drawDonutChart(canvas, data, colors) {
   const ctx = canvas.getContext('2d');
-  // ... arc segments + center label
+  // arc segments + center label
 }
 
-// Bar chart with proportional column heights
 function drawBarChart(canvas, data, colors) {
   const ctx = canvas.getContext('2d');
-  // ... fillRect() bars with spacing
+  // fillRect() bars with spacing
 }
 ```
 
 ---
 
 ## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/AmazingFeature`
@@ -267,13 +238,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📄 License
 
-© 2026 **Anas Ahmed Qureshi**. All Rights Reserved.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 ---
 
 <div align="center">
 
-Made with ❤️ 
+Made with ❤️ by [AnasQ2003](https://github.com/AnasQ2003)
 
 ⭐ If you find this project useful, please give it a star!
 
